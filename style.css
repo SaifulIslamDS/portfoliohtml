@@ -56,3 +56,7 @@ span.my-name {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+
+.experience > div {
+    padding: 0 50px;
+}

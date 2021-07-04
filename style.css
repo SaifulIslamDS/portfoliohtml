@@ -61,7 +61,6 @@ h1 {
     padding: 0 50px;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    /* background-position: 100%; */
     background-position-y: 60%;
 }
 
@@ -71,14 +70,24 @@ h1 {
 }
 .experience {
     width: 40%;
-    /* height: 80%; */
     margin: 20px;
     padding: 0 5%;
-    border: 0.5px dotted rgb(211, 10, 10);
-    border-left: 20px solid orangered;
-    box-shadow: 10px 10px 10px grey;
-    transition: 2s;
+    /* border: 0.5px dotted rgb(75, 52, 52); */
+    border-left: 20px solid rgb(190, 61, 21);
+    box-shadow: 10px 10px 5px rgb(195, 188, 212);
+    background-color: #C5DDF3;
+    /* box-shadow: 20px 20px 20px black; */
+    /* box-shadow: 10px 10px 10px grey; */
+    /* transition: 2s; */
 }
+.experience:hover {
+    cursor:pointer;
+    box-shadow: 20px 20px 10px rgb(72, 10, 216);
+    transition: 0.3s;
+    box-shadow: 10px 10px 20px rgb(192, 127, 127);
+}
+
+
 .full-dev {
     border-image: linear-gradient(#18fd03, #6705d6) 30;
 }

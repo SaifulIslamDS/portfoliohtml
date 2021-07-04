@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-section {
+.flex-container {
     display: flex;
     height: 100vh;
 }
@@ -19,7 +19,7 @@ h1 {
     font-size: 50px;
 }
 
-span.my-name {
+.highlight {
     color: goldenrod;
 }
 
@@ -28,7 +28,6 @@ span.my-name {
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-
 }
 
 .half-width img {
@@ -39,24 +38,58 @@ span.my-name {
 .btn-link {
     text-decoration: none;
     background-color: orange;
+    background-image: linear-gradient(45deg, orangered, tomato);
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
 }
 
-#top-banner {
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-#dream-big {
+.dream-big {
     background-color: #C5DDF3;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-#experience > div {
+.experiences-area {
     padding: 0 50px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    /* background-position: 100%; */
+    background-position-y: 60%;
+}
+
+.experiences-area .flex-container {
+    height: 60vh;
+    padding: 0 0 100px 0;
+}
+.experience {
+    width: 40%;
+    /* height: 80%; */
+    margin: 20px;
+    padding: 0 5%;
+    border: 0.5px dotted rgb(211, 10, 10);
+    border-left: 20px solid orangered;
+    box-shadow: 10px 10px 10px grey;
+    transition: 2s;
+}
+.full-dev {
+    border-image: linear-gradient(#18fd03, #6705d6) 30;
+}
+.intern-dev {
+    border-image: linear-gradient(#490597, #7ef309) 30;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
 }

@@ -5,7 +5,15 @@ body {
 
 section {
     display: flex;
-    margin-bottom: 100px;
+    height: 100vh;
+    /* padding: 100px 0; */
+}
+
+
+p {
+    line-height: 1.8em;
+    text-align: justify;
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -49,4 +57,3 @@ span.my-name {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-

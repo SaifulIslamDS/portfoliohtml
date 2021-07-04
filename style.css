@@ -5,6 +5,7 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -41,3 +42,11 @@ span.my-name {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+#dream-big {
+    background-color: #C5DDF3;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
